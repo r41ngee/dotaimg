@@ -33,3 +33,7 @@ def recursive_search(path):
             result.extend(temp_result)
 
     return result
+
+if __name__ == '__main__':
+    result = recursive_search('dota_images')
+    print(len(result))
